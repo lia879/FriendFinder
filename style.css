@@ -1,0 +1,68 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #d7ffcf;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+h1 {
+  font-family: "Baloo", cursive;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  max-width: 60%;
+  line-height: 1.75;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+footer {
+  text-align: right;
+  background: #fff;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  margin: 30px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+a {
+  color: #5cb85c;
+  font-size: 20px;
+}
+
+#bestFriendModal {
+  text-align: center;
+}
+
+#bestFriendPhoto {
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #777;
+  font-size: 20px;
+}
